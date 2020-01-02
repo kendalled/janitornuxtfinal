@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="secondbox flex w-full h-auto items-center py-12 mt-16 text-white">
-      <IconCard v-for="i in 3" :key="i" :class="{'border-r-2 border-gray-400': i <= 2}" />
+      <IconCard v-for="i in 3" :key="i" :class="{'border-r-2 border-gray-200': i <= 2}" />
     </div>
   </div>
 </template>
