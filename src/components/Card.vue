@@ -41,7 +41,6 @@
 </template>
 
 <script>
-// import { VueperSlides, VueperSlide } from 'vueperslides'
 export default {
   name: 'Card',
   props: {

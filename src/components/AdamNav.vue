@@ -1,14 +1,13 @@
 <template>
-  <div id="nav" class="bg-white border-b antialiased parent z-20">
-    <div class="lg:px-8">
+  <div id="nav" class="bg-white shadow parent z-20">
+    <div class="md:px-8">
       <nav
-        class="relative flex flex-wrap items-center justify-between lg:py-4"
+        class="relative flex flex-wrap items-center justify-between md:py-4"
       >
         <nuxt-link to="/" class="relative z-10 flex-shrink-0 pl-4 py-4 lg:p-0">
-          <img class="h-10 w-auto" src="~/static/logo.png" alt="">
+          <img style="height:2.25rem;" class="w-auto" src="~/static/logo.png" alt="">
         </nuxt-link>
-        <!-- <SearchBar class="hidden" /> -->
-        <div class="flex-shrink-0 pr-4 lg:hidden">
+        <div class="flex-shrink-0 pr-4 md:hidden">
           <button
             ref="openButton"
             type="button"
@@ -30,22 +29,41 @@
           </button>
         </div>
         <div
-          class="hidden lg:block lg:ml-10 lg:flex lg:items-baseline lg:justify-between lg:bg-transparent"
+          class="hidden md:block md:ml-10 md:flex md:items-baseline md:justify-between md:bg-transparent"
         >
           <div class="lg:absolute inset-0 flex items-center justify-center">
-            <VerticalNav />
+            <a
+              href="#"
+              class="text-sm font-medium text-gray-900 hover:text-gray-700"
+            >Products</a>
+            <a
+              href="#"
+              class="ml-10 text-sm font-medium text-gray-900 hover:text-gray-700"
+            >Marketplace</a>
+            <a
+              href="#"
+              class="ml-10 text-sm font-medium text-gray-900 hover:text-gray-700"
+            >Partners</a>
+            <a
+              href="#"
+              class="ml-10 text-sm font-medium text-gray-900 hover:text-gray-700"
+            >About</a>
           </div>
           <div class="ml-10 relative flex items-baseline">
-            <!-- old cart link -->
-            <button class="py-2 px-3 text-sm font-medium text-gray-100 bg-blue-600 rounded transition-bg hover:bg-blue-700 hover:text-white focus:outline-none" @click="removeFromCart">
-              Free Quote
-            </button>
+            <a
+              href="#"
+              class="text-sm font-medium text-gray-900 hover:text-gray-700"
+            >Log in</a>
+            <a
+              href="#"
+              class="ml-8 px-3 py-2 font-medium text-center text-sm rounded-lg bg-gray-300 text-gray-900 hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
+            >Create Account</a>
           </div>
         </div>
       </nav>
     </div>
 
-    <div class="lg:hidden">
+    <div class="md:hidden">
       <!-- Off-canvas menu background overlay -->
       <transition
         enter-class="opacity-0"
@@ -77,7 +95,7 @@
       >
         <div
           v-show="isOpen"
-          class="z-10 fixed inset-y-0 right-0 max-w-xs w-full bg-white overflow-y-auto"
+          class="z-10 fixed inset-y-0 right-0 max-w-xs w-full bg-white transition-transform overflow-y-auto"
         >
           <div class="relative z-10 bg-white">
             <div
@@ -98,8 +116,8 @@
                 </svg>
               </button>
             </div>
-            <div class="px-4 pt-5 pb-6">
-              <img class="h-6 w-auto" src="~/static/logo.png" alt="">
+            <div class="px-4 pt-4 pb-6">
+              <img class="h-8 w-auto" src="~/static/logo.png" alt="">
               <a
                 href="#"
                 class="mt-8 block text-xs font-semibold text-gray-600 uppercase tracking-wider"
@@ -126,6 +144,10 @@
                 href="#"
                 class="block font-medium text-gray-900 hover:text-gray-700"
               >Marketplace</a>
+              <a
+                href="#"
+                class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
+              >Partners</a>
               <a
                 href="#"
                 class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
@@ -164,11 +186,7 @@
 </style>
 
 <script>
-import VerticalNav from '~/components/VerticalNav'
 export default {
-  components: {
-    VerticalNav
-  },
   data () {
     return {
       isOpen: false

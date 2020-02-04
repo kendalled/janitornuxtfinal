@@ -1,15 +1,15 @@
 <template>
-  <div class="antialiased thatimage flex items-center flex-col">
+  <div class="antialiased thatimage flex items-center justify-between flex-col">
     <!-- hero root -->
-    <div class="firstbox flex flex-row w-full h-full items-center pt-12 text-white">
+    <div class="firstbox flex flex-row w-full h-full items-center pt-32 px-12 text-white">
       <div class="w-3/5 flex flex-col ml-3 pl-16 pb-12 pt-8">
-        <h1 class="text-white text-left font-black tracking-tight max-w-2xl text-4xl mt-8">
-          Professional Cleaning Services for Schools Made Simple.
+        <h1 class="text-white text-left font-extrabold tracking-tight max-w-xl text-4xl mt-8 pl-4">
+          Janitorial Services for your business made simple.
         </h1>
-        <p class="text-xl text-gray-200 font-medium">
-          This is the subheading that will convince you.
+        <p class="text-xl text-gray-200 tracking-tight font-medium pl-4">
+          With over 20 years of experience, we'll get the job done right.
         </p>
-        <div class="mt-3">
+        <div class="mt-3 pl-4">
           <button class="bg-white transition-bg hover:bg-gray-100 text-gray-800 font-semibold py-3 px-6 border border-gray-400 rounded tracking-tight shadow">
             Learn More
           </button>
@@ -24,29 +24,24 @@
         <TinyQuote />
       </div>
     </div>
-    <div class="secondbox flex w-full h-auto items-center py-12 mt-16 text-white">
-      <IconCard v-for="i in 3" :key="i" :class="{'border-r-2 border-gray-200': i <= 2}" />
-    </div>
   </div>
 </template>
 
 <script>
 import TinyQuote from '~/components/TinyQuote'
-import IconCard from '~/components/IconCard'
 export default {
   name: 'SplashHeader',
   components: {
-    TinyQuote,
-    IconCard
+    TinyQuote
   }
 }
 </script>
 
 <style scoped>
 .thatimage {
-  background-image: linear-gradient(rgba(25, 22, 103, 0.62), rgba(25, 22, 103, 0.85)),
+  background-image: linear-gradient(rgba(22, 59, 103, 0.62), rgba(2, 9, 15, 0.85)),
     url('../static/saltlakecity3.jpg');
-  min-height: calc(60vh + 7rem);
+  min-height: calc(60vh + 5rem);
   background-size: auto, cover;
   background-position: center;
   background-attachment: fixed;

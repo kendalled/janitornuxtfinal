@@ -1,5 +1,5 @@
 <template>
-  <form class="w-full max-w-lg bg-white px-4 pb-12 pt-4 rounded shadow-md">
+  <form class="w-full max-w-md bg-white border-t-4 border-blue-600 px-4 pb-10 pt-6 rounded shadow-md">
     <h2 class="text-lg mb-4 font-semibold text-gray-800 text-center border-b-2 w-2/3 mx-auto">
       Free Quote Request
     </h2>
@@ -49,7 +49,7 @@
       </div>
       <div class="mt-6 flex justify-end w-full px-4 -mb-4">
         <nuxt-link to="/testing">
-          <button class="px-6 py-3 inline-block ml-4 bg-blue-600 hover:bg-blue-700 rounded text-white font-semibold transition-bg tracking-tight shadow-md focus:outline-none">
+          <button class="text-sm px-6 py-3 inline-block ml-4 bg-blue-600 hover:bg-blue-700 rounded text-white font-semibold transition-bg tracking-tight shadow-md focus:outline-none">
             Submit
           </button>
         </nuxt-link>
