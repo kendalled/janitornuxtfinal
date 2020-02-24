@@ -1,7 +1,7 @@
 <template>
-  <div class="antialiased thatimage flex items-center justify-between flex-col">
+  <div class="antialiased thatimage flex items-center justify-center flex-col">
     <!-- hero root -->
-    <div class="firstbox flex flex-row w-full h-full items-center pt-32 px-12 text-white">
+    <div class="firstbox flex flex-row w-full h-full items-center px-12 text-white">
       <div class="w-3/5 flex flex-col ml-3 pl-16 pb-12 pt-8">
         <h1 class="text-white text-left font-extrabold tracking-tight max-w-xl text-4xl mt-8 pl-4">
           Janitorial Services for your business made simple.
