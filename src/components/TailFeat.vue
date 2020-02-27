@@ -29,7 +29,7 @@
           A better way to clean your office
         </h3>
         <p class="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
-          With no hidden fees and stellar customer support, we are your go-to for janitorial work.
+          With no hidden fees and stellar customer support, we are your go-to for janitorial work. And we won't break the bank, either.
         </p>
       </div>
 
