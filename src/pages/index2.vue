@@ -1,31 +1,27 @@
 <template>
-  <div class="pageroot bg-gray-100 antialiased font-sans">
-    <TailHero />
-    <TailFeat />
-    <TailTest />
-    <TailStats />
-    <TailSub />
-    <TailFoot />
+  <div class="bg-white">
+    <SplashHeader class="splash" />
+    <ContentSection2 />
+    <VideoSpot />
+    <SecondSection />
+    <RespFooter />
   </div>
 </template>
 
 <script>
-import TailHero from '~/components/TailHero'
-import TailFeat from '~/components/TailFeat'
-import TailTest from '~/components/TailTest'
-import TailStats from '~/components/TailStats'
-import TailSub from '~/components/TailSub'
-import TailFoot from '~/components/TailFoot'
+import VideoSpot from '~/components/VideoSpot'
+import SplashHeader from '~/components/SplashHeader'
+import ContentSection2 from '~/components/ContentSection2'
+import SecondSection from '~/components/SecondSection'
+import RespFooter from '~/components/RespFooter'
+
 export default {
-  name: 'index2',
-  layout: 'checkout',
   components: {
-    TailHero,
-    TailFeat,
-    TailTest,
-    TailStats,
-    TailSub,
-    TailFoot
+    VideoSpot,
+    SecondSection,
+    SplashHeader,
+    ContentSection2,
+    RespFooter
   }
 }
 </script>

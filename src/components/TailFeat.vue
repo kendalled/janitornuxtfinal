@@ -26,17 +26,17 @@
 
       <div class="relative">
         <h3 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-          A better way to send money
+          A better way to clean your office
         </h3>
         <p class="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in, accusamus quisquam.
+          With no hidden fees and stellar customer support, we are your go-to for janitorial work.
         </p>
       </div>
 
       <div class="relative mt-12 lg:mt-20 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
         <div class="relative">
           <h4 class="text-2xl leading-8 font-extrabold text-gray-900 tracking-tight sm:text-3xl sm:leading-9">
-            Transfer funds world-wide
+            Years of experience
           </h4>
           <p class="mt-3 text-lg leading-7 text-gray-500">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.
@@ -54,7 +54,7 @@
                 </div>
                 <div class="ml-4">
                   <h5 class="text-lg leading-6 font-medium text-gray-900">
-                    Competitive exchange rates
+                    Quick turnarounds
                   </h5>
                   <p class="mt-2 text-base leading-6 text-gray-500">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
