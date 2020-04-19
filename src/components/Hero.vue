@@ -28,7 +28,7 @@
 export default {
   name: 'Hero',
   props: {
-    'bg': {
+    bg: {
       type: String,
       default: 'background.jpg'
     }

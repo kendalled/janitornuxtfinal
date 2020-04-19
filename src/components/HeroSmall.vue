@@ -18,7 +18,7 @@
 export default {
   name: 'HeroSmall',
   props: {
-    'bg': {
+    bg: {
       type: String,
       default: 'samplerug.jpg'
     }

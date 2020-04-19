@@ -1,40 +1,40 @@
 <template>
-  <div class="bg-gray-800">
+  <div class="bg-blue-800">
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8 lg:py-20">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10">
           Trusted by developers from over 80 planets
         </h2>
-        <p class="mt-3 text-xl leading-7 text-gray-300 sm:mt-4">
+        <p class="mt-3 text-xl leading-7 text-blue-200 sm:mt-4">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.
         </p>
       </div>
-      <div class="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
-        <div>
-          <p class="text-5xl leading-none font-extrabold text-white">
-            100%
-          </p>
-          <p class="mt-2 text-lg leading-6 font-medium text-gray-300">
+      <dl class="mt-10 text-center sm:max-w-3xl sm:mx-auto sm:grid sm:grid-cols-3 sm:gap-8">
+        <div class="flex flex-col">
+          <dt class="order-2 mt-2 text-lg leading-6 font-medium text-blue-200">
             Pepperoni
-          </p>
+          </dt>
+          <dd class="order-1 text-5xl leading-none font-extrabold text-white">
+            100%
+          </dd>
         </div>
-        <div class="mt-10 sm:mt-0">
-          <p class="text-5xl leading-none font-extrabold text-white">
-            24/7
-          </p>
-          <p class="mt-2 text-lg leading-6 font-medium text-gray-300">
+        <div class="flex flex-col mt-10 sm:mt-0">
+          <dt class="order-2 mt-2 text-lg leading-6 font-medium text-blue-200">
             Delivery
-          </p>
+          </dt>
+          <dd class="order-1 text-5xl leading-none font-extrabold text-white">
+            24/7
+          </dd>
         </div>
-        <div class="mt-10 sm:mt-0">
-          <p class="text-5xl leading-none font-extrabold text-white">
-            100k+
-          </p>
-          <p class="mt-2 text-lg leading-6 font-medium text-gray-300">
+        <div class="flex flex-col mt-10 sm:mt-0">
+          <dt class="order-2 mt-2 text-lg leading-6 font-medium text-blue-200">
             Calories
-          </p>
+          </dt>
+          <dd class="order-1 text-5xl leading-none font-extrabold text-white">
+            100k+
+          </dd>
         </div>
-      </div>
+      </dl>
     </div>
   </div>
 </template>

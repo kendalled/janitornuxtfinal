@@ -74,7 +74,7 @@
               <span class="text-blue-600">cleaning services</span>
             </h2>
             <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              For over 20 years, we have provided janitorial services for businesses big and small. Get started with a free quote.
+              For over 20 years, we have provided janitorial services for businesses big and small. From luxury apartments to small offices, we've done it all. Get started with a free quote.
             </p>
             <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div class="rounded-md shadow">
@@ -96,7 +96,7 @@
       </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="~/static/janitor.jpg" alt="">
+      <div class="thatimage h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" />
     </div>
   </div>
 </template>
@@ -111,3 +111,14 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.thatimage {
+  /*saltlakecity3.jpg */
+  background-image: linear-gradient(rgba(22, 59, 103, 0.22), rgba(2, 9, 15, 0.45)),
+    url('../static/janitor.jpg');
+  background-size: auto, cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+</style>

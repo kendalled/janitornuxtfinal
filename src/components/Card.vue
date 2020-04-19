@@ -44,31 +44,31 @@
 export default {
   name: 'Card',
   props: {
-    'sku': {
+    sku: {
       type: String,
       default: 'AGR-2304'
     },
-    'collection': {
+    collection: {
       type: String,
       default: 'Agra'
     },
-    'group': {
+    group: {
       type: String,
       default: '2\' x 3\''
     },
-    'shaping': {
+    shaping: {
       type: String,
       default: 'Rectangle'
     },
-    'styling': {
+    styling: {
       type: String,
       default: 'Modern'
     },
-    'price': {
+    price: {
       type: Number,
       default: 174.99
     },
-    'romance': {
+    romance: {
       type: String,
       default: 'Agra\'s Collection features hundreds of timeless styles, from modern to chic. This rug is a classic style that will surely create'
     }

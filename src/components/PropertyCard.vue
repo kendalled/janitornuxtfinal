@@ -50,7 +50,7 @@
 <script>
 export default {
   props: {
-    'property': {
+    property: {
       type: Object,
       default () {
         return {
