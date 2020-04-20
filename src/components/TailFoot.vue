@@ -123,11 +123,6 @@
                     Press
                   </a>
                 </li>
-                <li class="mt-4">
-                  <a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
-                    Partners
-                  </a>
-                </li>
               </ul>
             </div>
             <div class="mt-12 md:mt-0">

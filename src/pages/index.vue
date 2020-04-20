@@ -1,10 +1,10 @@
 <template>
   <div class="pageroot bg-gray-100 antialiased font-sans">
     <TailHero />
-    <ThreeColFeat />
-    <TailStats />
-    <TailTest />
     <TailFeat />
+    <TailStats />
+    <ThreeColFeat />
+    <TailTest />
     <TailFoot />
   </div>
 </template>
