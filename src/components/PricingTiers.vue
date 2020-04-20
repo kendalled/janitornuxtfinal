@@ -34,7 +34,7 @@
                   </span>
                 </div>
                 <p class="mt-5 text-lg leading-7 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  The best cleaning service in Utah, backed by a money-back guarantee.
                 </p>
               </div>
               <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
@@ -46,7 +46,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 text-gray-700">
-                      Pariatur quod similique
+                      Self supplied materials
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -56,7 +56,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 text-gray-700">
-                      Sapiente libero doloribus modi nostrum
+                      Multiple locations
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -66,7 +66,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 text-gray-700">
-                      Vel ipsa esse repudiandae excepturi
+                      Same-day turnaround time
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -76,7 +76,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 text-gray-700">
-                      Itaque cupiditate adipisci quibusdam
+                      Stellar customer support
                     </p>
                   </li>
                 </ul>
@@ -101,7 +101,7 @@
                   </span>
                 </div>
                 <p class="mt-5 text-lg leading-7 text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Our famous cleaning services, plus all the bells and whistles.
                 </p>
               </div>
               <div class="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
@@ -113,7 +113,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 text-gray-700">
-                      Pariatur quod similique
+                      Overnight service
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -123,7 +123,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 text-gray-700">
-                      Sapiente libero doloribus modi nostrum
+                      Large scale cleaning
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -133,7 +133,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 text-gray-700">
-                      Vel ipsa esse repudiandae excepturi
+                      Medical grade antibacterial
                     </p>
                   </li>
                   <li class="mt-4 flex items-start">
@@ -143,7 +143,7 @@
                       </svg>
                     </div>
                     <p class="ml-3 text-base leading-6 text-gray-700">
-                      Itaque cupiditate adipisci quibusdam
+                      Supplies included
                     </p>
                   </li>
                 </ul>
@@ -163,20 +163,20 @@
             <div class="flex-1">
               <div>
                 <span class="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-white text-gray-800">
-                  Discounted
+                  Custom Pricing
                 </span>
               </div>
               <div class="mt-4 text-lg leading-7 text-gray-500">
-                Full access to our team of experts at a moment's notice, scaled to your business. Starting at just
+                Full access to our team of expert janitorial staff at a moment's notice, scaled to your business. Starting at just
                 <strong class="font-semibold text-gray-900">
-                  $29.
+                  $99.
                 </strong>
                 <!-- . -->
               </div>
             </div>
             <div class="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
               <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-700 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-                Custom Pricing
+                Contact Sales
               </a>
             </div>
           </div>

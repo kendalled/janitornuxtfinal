@@ -6,7 +6,7 @@
           Sign up for our newsletter
         </h2>
         <p class="mt-3 max-w-3xl text-lg leading-6 text-gray-300">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui Lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat.
+          From discounts to news in cleaning and office maintenance, we've got the best in janitorial work straight to your inbox.
         </p>
       </div>
       <div class="mt-8 lg:mt-0 lg:ml-8">
