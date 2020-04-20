@@ -9,7 +9,7 @@
           A better way to clean your space.
         </h3>
         <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-          We will ensure that your business is spotless. Call us or submit a complimentary quote request to get started in minutes, cleaning.
+          We will ensure that your business is spotless. Call us or submit a complimentary quote request to get cleaning in no time.
         </p>
       </div>
 
