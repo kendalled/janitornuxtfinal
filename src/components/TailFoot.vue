@@ -152,7 +152,7 @@
       </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
         <p class="text-base leading-6 text-gray-400 xl:text-center">
-          © 2020 Janitor Utah, Inc. All rights reserved.
+          © 2020 Janitor Utah, LLC.
         </p>
       </div>
     </div>
