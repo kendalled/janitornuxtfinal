@@ -104,6 +104,7 @@ export default {
   methods: {
     changeTab (value) {
       // alert('this worked')
+      this.$emit('diff', value)
       this.selected = value
     }
   }
