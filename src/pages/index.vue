@@ -4,7 +4,9 @@
     <TailFeat />
     <TailStats />
     <ThreeColFeat />
+    <PricingTiers />
     <TailTest />
+    <DarkNewsletter />
     <TailFoot />
   </div>
 </template>
@@ -15,6 +17,8 @@ import TailFeat from '~/components/TailFeat'
 import TailTest from '~/components/TailTest'
 import TailStats from '~/components/TailStats'
 import ThreeColFeat from '~/components/ThreeColFeat'
+import DarkNewsletter from '~/components/DarkNewsletter'
+import PricingTiers from '~/components/PricingTiers'
 import TailFoot from '~/components/TailFoot'
 export default {
   layout: 'checkout',
@@ -24,6 +28,8 @@ export default {
     TailTest,
     TailStats,
     ThreeColFeat,
+    DarkNewsletter,
+    PricingTiers,
     TailFoot
   }
 }

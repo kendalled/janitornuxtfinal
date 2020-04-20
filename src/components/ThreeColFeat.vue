@@ -3,13 +3,13 @@
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <p class="text-base leading-6 text-blue-600 font-semibold tracking-wide uppercase">
-          best pricing
+          our speciality
         </p>
         <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-          A better way to clean your space
+          A better way to clean your space.
         </h3>
         <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-          We will ensure that your business is spotless. Call us or submit a quote request to get started in minutes, cleaning.
+          We will ensure that your business is spotless. Call us or submit a complimentary quote request to get started in minutes, cleaning.
         </p>
       </div>
 
