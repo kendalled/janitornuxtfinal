@@ -1,6 +1,6 @@
 <template>
   <!-- no width utilities needed? -->
-  <div class="flex w-full max-w-xs justify-center -mt-64 z-50 absolute hidden lg:block">
+  <div class="flex w-full max-w-xs justify-center -mt-64 z-20 absolute hidden lg:block">
     <!-- w-56 -->
     <nav id="nav" class="w-full relative">
       <span

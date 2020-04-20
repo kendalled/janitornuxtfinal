@@ -21,7 +21,6 @@ import DarkNewsletter from '~/components/DarkNewsletter'
 import PricingTiers from '~/components/PricingTiers'
 import TailFoot from '~/components/TailFoot'
 export default {
-  layout: 'checkout',
   components: {
     TailHero,
     TailFeat,
