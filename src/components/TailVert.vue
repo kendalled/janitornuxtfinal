@@ -1,38 +1,122 @@
 <template>
-  <nav class="max-w-xs w-full -mt-56 z-50 absolute hidden xl:block">
-    <a v-for="(tab, i) in tabs" :key="tab" href="#" :class="[i !== 0 ? 'mt-1' : 'mt-0', selected === i ? 'group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md bg-white shadow hover:text-gray-900 focus:outline-none transition ease-in-out duration-150' : 'group flex items-center px-3 py-2 text-sm leading-5 font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-200 transition ease-in-out duration-150']" @click.prevent="changeTab(i)">
-      <svg v-if="i === 0" class="flex-shrink-0 -ml-1 mr-3 h-6 w-6 text-gray-400 group-focus:text-gray-500 transition ease-in-out duration-150" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h3a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1h3a1 1 0 001-1V10M9 21h6" />
-      </svg>
-      <svg
-        v-if="i === 1"
-        fill="none"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        viewBox="0 0 24 24"
-        class="flex-shrink-0 -ml-1 mr-3 h-6 w-6 text-gray-400 group-focus:text-gray-500 transition ease-in-out duration-150"
-      ><path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>
-      <svg v-if="i === 2" class="flex-shrink-0 -ml-1 mr-3 h-6 w-6 text-gray-400 group-focus:text-gray-500 transition ease-in-out duration-150" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-      </svg>
-      <svg
-        v-if="i === 3"
-        fill="none"
-        stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        viewBox="0 0 24 24"
-        class="flex-shrink-0 -ml-1 mr-3 h-6 w-6 text-gray-400 group-focus:text-gray-500 transition ease-in-out duration-150"
-      ><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-      <span class="truncate">
-        {{ tab }}
-      </span>
-    </a>
-  </nav>
+  <!-- no width utilities needed? -->
+  <div class="flex w-full max-w-xs justify-center -mt-64 z-50 absolute hidden lg:block">
+    <!-- w-56 -->
+    <nav id="nav" class="w-full relative">
+      <span
+        class="z-10 absolute h-10 w-full bg-white rounded-lg shadow ease-out transition-transform duration-300"
+        :style="{ transform: `translateY(calc(100% * ${selected}))` }"
+      />
+      <ul class="relative z-20">
+        <li>
+          <button
+            type="button"
+            :aria-selected="selected === 0"
+            class="py-2 px-3 w-full flex items-center focus:outline-none focus-visible:underline"
+            @click="changeTab(0)"
+          >
+            <svg
+              :class="selected === 0 ? 'text-indigo-400' : 'text-gray-500'"
+              class="h-6 w-6 transition-all ease-out duration-300"
+              stroke="currentColor"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l9-9 9 9M5 10v10a1 1 0 001 1h3a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1h3a1 1 0 001-1V10M9 21h6" />
+            </svg>
+            <span
+              :class="selected === 0 ? 'text-indigo-600' : 'text-gray-700'"
+              class="ml-2 text-sm font-medium transition-all ease-out duration-300"
+            >
+              Services
+            </span>
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            :aria-selected="selected === 1"
+            class="py-2 px-3 w-full flex items-center focus:outline-none focus-visible:underline"
+            @click="changeTab(1)"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              :class="selected === 1 ? 'text-indigo-400' : 'text-gray-500'"
+              class="h-6 w-6 transition-all ease-out duration-300"
+            ><path d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" /></svg>
+            <span
+              :class="selected === 1 ? 'text-indigo-600' : 'text-gray-700'"
+              class="ml-2 text-sm font-medium transition-all ease-out duration-300"
+            >
+              Projects
+            </span>
+          </button>
+        </li>
+        <li>
+          <button
+            type="button"
+            :aria-selected="selected === 2"
+            class="py-2 px-3 w-full flex items-center focus:outline-none focus-visible:underline"
+            @click="changeTab(2)"
+          >
+            <svg
+              :class="selected === 2 ? 'text-indigo-400' : 'text-gray-500'"
+              class="h-6 w-6 transition-all ease-out duration-300"
+              stroke="currentColor"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+            <span
+              :class="selected === 2 ? 'text-indigo-600' : 'text-gray-700'"
+              class="ml-2 text-sm font-medium transition-all ease-out duration-300"
+            >
+              Team
+            </span>
+          </button>
+        </li>
+        <!-- todo: implement hover state on text and bounding box  :class="[selected === 3 ? '' : 'transition-colors duration-300 hover:bg-gray-100 rounded']" -->
+        <li>
+          <button
+            type="button"
+            :aria-selected="selected === 3"
+            class="py-2 px-3 w-full flex items-center focus:outline-none focus-visible:underline"
+            @click="changeTab(3)"
+          >
+            <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              :class="selected === 3 ? 'text-indigo-400' : 'text-gray-500'"
+              class="h-6 w-6 transition-all ease-out duration-300"
+            ><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            <span
+              :class="selected === 3 ? 'text-indigo-600' : 'text-gray-700'"
+              class="ml-2 text-sm font-medium transition-all ease-out duration-300"
+            >
+              Pricing
+            </span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </template>
+
+<style scoped>
+.focus-visible.focus-visible\:underline {
+  text-decoration: underline;
+}
+</style>
 
 <script>
 export default {
