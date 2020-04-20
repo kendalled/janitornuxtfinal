@@ -33,7 +33,7 @@
         <blockquote class="mt-8">
           <div class="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
             <p>
-              &ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.&rdquo;
+              &ldquo;Janitor Utah was a breeze to work with. From effortless scheduling to unbeatable pricing, they can't be beat.&rdquo;
             </p>
           </div>
           <footer class="mt-8">
