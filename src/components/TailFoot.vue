@@ -5,7 +5,7 @@
         <div class="xl:col-span-1">
           <img class="h-10" src="~/static/logo.png" alt="Company name">
           <p class="mt-8 text-gray-500 text-base leading-6">
-            Based in Salt Lake City for over twenty years. Making the world a cleaner place, one office at a time.
+            Based in Salt Lake City for over twenty years. Making the world cleaner, one office at a time.
           </p>
           <div class="mt-8 flex">
             <a href="#" class="text-gray-400 hover:text-gray-500">
