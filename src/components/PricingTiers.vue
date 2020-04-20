@@ -167,16 +167,16 @@
                 </span>
               </div>
               <div class="mt-4 text-lg leading-7 text-gray-500">
-                Get full access to all of standard license features for solo projects that make less than $20k gross revenue for
+                Full access to our team of experts at a moment's notice, scaled to your business. Starting at just
                 <strong class="font-semibold text-gray-900">
-                  $29
+                  $29.
                 </strong>
-                .
+                <!-- . -->
               </div>
             </div>
             <div class="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
               <a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-gray-900 bg-white hover:text-gray-700 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
-                Buy Discounted License
+                Custom Pricing
               </a>
             </div>
           </div>
