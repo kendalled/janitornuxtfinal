@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-gray-50 overflow-hidden">
+  <div class="bg-gray-50 overflow-hidden pt-20">
     <div class="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <!-- <svg class="z-10 absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784">
+      <svg class="block sm:hidden z-10 absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4" width="404" height="784" fill="none" viewBox="0 0 404 784">
         <defs>
           <pattern
             id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
@@ -22,12 +22,12 @@
           </pattern>
         </defs>
         <rect width="404" height="784" fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)" />
-      </svg> -->
+      </svg>
       <!-- this is vertical nav component -->
       <div class="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
         <div class="lg:col-span-1">
-          <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-            Cleaning services for everyone.
+          <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 z-20 relative">
+            Cleaning services made simple.
           </h3>
         </div>
         <div class="mt-10 sm:grid sm:grid-cols-2 sm:col-gap-8 sm:row-gap-10 lg:col-span-2 lg:mt-0">
@@ -66,7 +66,7 @@
                 Schools and Colleges
               </h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
-                You need to learn a lesson. A lesson in cleaning, that is. Get cleaned, kid. This is filler to help.
+                Cleanliness is a guarantee for your establishment. The safety of your students and staff is our main priority.
               </p>
             </div>
           </div>
@@ -82,7 +82,7 @@
                 Churches
               </h5>
               <p class="mt-2 text-base leading-6 text-gray-500">
-                You'll be praying that we come back once you see the results. Our team of experts.
+                We know that keeping your space clean should be the standard. First and foremost, that standard is our top focus.
               </p>
             </div>
           </div>

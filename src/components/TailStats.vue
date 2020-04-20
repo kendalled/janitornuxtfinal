@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
-          Trusted by companies nationwide.
+          Trusted by companies all over.
         </h2>
         <p class="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
           From businesses big to small, we have clients with varying needs and costs.
@@ -18,10 +18,10 @@
             <dl class="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
               <div class="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
                 <dt id="item-1" class="order-2 mt-2 text-lg leading-6 font-medium text-gray-500">
-                  Customers
+                  Cities Served
                 </dt>
                 <dd class="order-1 text-5xl leading-none font-extrabold text-blue-600" aria-describedby="item-1">
-                  1,000+
+                  500
                 </dd>
               </div>
               <div class="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">

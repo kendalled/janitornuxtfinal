@@ -7,7 +7,7 @@
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div class="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
-                  <img class="h-8 w-auto sm:h-9" src="~/static/logo.png" alt="">
+                  <img class="h-8 w-auto sm:h-10 sm:w-auto" src="~/static/logo.png" alt="">
                 </a>
                 <div class="-mr-2 flex items-center md:hidden">
                   <button type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" @click="open = true">
