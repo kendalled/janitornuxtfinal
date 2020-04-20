@@ -6,7 +6,7 @@
           Sign up for our newsletter
         </h2>
         <p class="mt-3 max-w-3xl text-lg leading-6 text-gray-300">
-          From discounts, news in cleaning, and office maintenance, we've got the best in janitorial work - straight to your inbox.
+          From discounts, news in cleaning, and office maintenance, we've got the best in janitorial work - straight to your inbox. You can unsubscribe any time.
         </p>
       </div>
       <div class="mt-8 lg:mt-0 lg:ml-8">
