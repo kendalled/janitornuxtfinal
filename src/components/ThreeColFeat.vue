@@ -26,10 +26,10 @@
               </div>
               <div class="ml-4">
                 <h5 class="text-lg leading-6 font-medium text-gray-900">
-                  Competitive exchange rates
+                  Competitive rates
                 </h5>
                 <p class="mt-2 text-base leading-6 text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                  We can guarantee you won't find better service for a lower price, or we'll match it. We want to get you back to business without breaking the bank.
                 </p>
               </div>
             </div>
@@ -48,7 +48,7 @@
                   No hidden fees
                 </h5>
                 <p class="mt-2 text-base leading-6 text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                  Unlike most janitorial companies, we have no hidden fees, ever. Your cost is calculated into one sum for peace of mind.
                 </p>
               </div>
             </div>
@@ -64,10 +64,10 @@
               </div>
               <div class="ml-4">
                 <h5 class="text-lg leading-6 font-medium text-gray-900">
-                  Transfers are instant
+                  Quick turnarounds
                 </h5>
                 <p class="mt-2 text-base leading-6 text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                  Same-day service is our specialty. Need a cleaning done ASAP? Don't hesitate to get started using our quote form.
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@
                   Mobile notifications
                 </h5>
                 <p class="mt-2 text-base leading-6 text-gray-500">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+                  Through text message, you can see the status of your cleaning and request a job again. You're only a few taps away from a clean office!
                 </p>
               </div>
             </div>
