@@ -7,10 +7,10 @@
             Pricing
           </h2>
           <p class="mt-2 text-3xl leading-9 font-extrabold text-white sm:text-4xl sm:leading-10 lg:text-5xl lg:leading-none">
-            The right price for you, whoever you are
+            The right price for your business.
           </p>
           <p class="mt-2 text-xl leading-7 text-gray-300">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sequi unde repudiandae natus.
+            We don't aim to break the bank. Our scalable pricing stucture offers something for everybody.
           </p>
         </div>
       </div>
