@@ -29,6 +29,7 @@
           <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 z-20 relative">
             Cleaning services made simple.
           </h3>
+          <TailVert @diff="updateSelect" />
         </div>
         <transition
           enter-active-class="transition-all transition duration-150 ease-out-quad"
@@ -45,7 +46,6 @@
           <BlankFeature v-if="selected === 1" />
         </transition>
       </div>
-      <TailVert @diff="updateSelect" />
     </div>
   </div>
 </template>
