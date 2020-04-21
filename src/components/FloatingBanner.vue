@@ -8,7 +8,7 @@
     leave-class="opacity-100"
     leave-to-class="opacity-0"
   >
-    <div v-show="open" class="fixed bottom-0 inset-x-0 pb-6 sm:pb-5 z-30" @keydown.escape="open = false">
+    <div v-show="open" class="fixed bottom-0 inset-x-0 pb-6 sm:pb-5 z-30">
       <div class="max-w-screen-xl mx-auto px-2 sm:px-6 lg:px-8">
         <div class="p-2 rounded-lg bg-red-600 shadow-lg sm:p-3">
           <div class="flex items-center justify-between flex-wrap">
@@ -57,10 +57,21 @@ export default {
     }
   },
   created () {
-    const vm = this
     setTimeout(() => {
-      vm.open = true
+      this.open = true
     }, 5000)
+  },
+  mounted () {
+    const onEscape = (e) => {
+      if (this.open && e.keyCode === 27) {
+        this.open = false
+      }
+    }
+    document.addEventListener('keydown', onEscape)
+
+    this.$once('hook:destroyed', () => {
+      document.removeEventListener('keydown', onEscape)
+    })
   }
 }
 </script>

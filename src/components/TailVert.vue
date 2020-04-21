@@ -1,6 +1,6 @@
 <template>
   <!-- no width utilities needed? -->
-  <div class="flex w-full max-w-xs justify-center mt-12 z-20 absolute hidden lg:block">
+  <div class="flex w-full max-w-xs justify-center mt-10 z-20 hidden lg:block">
     <!-- w-56 -->
     <nav id="nav" class="w-full relative">
       <span
@@ -57,6 +57,7 @@
               :class="selected === 3 ? 'text-blue-400' : 'text-gray-500'"
               class="h-6 w-6 transition-all ease-out duration-300"
             ><path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+
             <span
               :class="selected === j ? 'text-blue-600' : 'text-gray-700'"
               class="ml-2 text-sm font-medium transition-all ease-out duration-300"
@@ -65,21 +66,6 @@
             </span>
           </button>
         </li>
-        <!-- <li>
-          <button
-            type="button"
-            :aria-selected="selected === 1"
-            class="py-2 px-3 w-full flex items-center focus:outline-none focus-visible:underline"
-            @click="changeTab(1)"
-          >
-            <span
-              :class="selected === 1 ? 'text-blue-600' : 'text-gray-700'"
-              class="ml-2 text-sm font-medium transition-all ease-out duration-300"
-            >
-              Projects
-            </span>
-          </button>
-        </li> -->
         <!-- todo: implement hover state on text and bounding box  :class="[selected === 3 ? '' : 'transition-colors duration-300 hover:bg-gray-100 rounded']" -->
       </ul>
     </nav>
