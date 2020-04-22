@@ -11,8 +11,7 @@ export default {
   name: 'BlankFeature',
   data () {
     return {
-      imgs: ['https://images.unsplash.com/photo-1554232456-8727aae0cfa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80', 'https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80',
-        'https://images.unsplash.com/photo-1503423571797-2d2bb372094a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80', 'https://images.unsplash.com/photo-1563219125-1db796e20ff2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80']
+      imgs: [require('~/static/jan1.jpg'), require('~/static/jan2.jpg'), require('~/static/jan3.jpg'), require('~/static/jan4.jpg')]
     }
   }
 }
