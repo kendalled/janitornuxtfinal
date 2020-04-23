@@ -99,7 +99,7 @@
       <picture data-not-lazy>
         <source srcset="~assets/img/janitorSmall.webp" type="image/webp">
         <source srcset="~assets/img/janitorSmall.jpg" type="image/jpeg">
-        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="~assets/img/janitorSmall.jpg" alt="Janitorial equipment" data-not-lazy>
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full block md:hidden" src="~assets/img/janitorSmall.jpg" alt="Janitorial equipment" data-not-lazy>
       </picture>
       <picture data-not-lazy>
         <source srcset="~assets/img/janitor.webp" type="image/webp">
