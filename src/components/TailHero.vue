@@ -96,7 +96,12 @@
       </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <div class="thatimage h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" />
+      <picture>
+        <source srcset="~/static/janitor.webp" type="image/webp">
+        <source srcset="~/static/janitor.jpg" type="image/jpeg">
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="~/static/janitor.jpg" alt="">
+      </picture>
+      <div class="absolute inset-0 bg-blue-400 opacity-25 h-full flex flex-col" />
     </div>
   </div>
 </template>
@@ -113,12 +118,9 @@ export default {
 </script>
 
 <style scoped>
-.thatimage {
+.thatimage:after {
   /*saltlakecity3.jpg */
-  background-image: linear-gradient(rgba(22, 59, 103, 0.22), rgba(2, 9, 15, 0.45)),
-    url('../static/janitor.jpg');
-  background-size: auto, cover;
-  background-position: center;
+  background-image: linear-gradient(rgba(22, 59, 103, 0.22), rgba(2, 9, 15, 0.45));
   /* background-attachment: fixed; */
 }
 </style>
