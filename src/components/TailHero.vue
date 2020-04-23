@@ -97,15 +97,15 @@
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <picture data-not-lazy>
-        <source srcset="~assets/img/janitorSmall.webp" type="image/webp">
-        <source srcset="~assets/img/janitorSmall.jpg" type="image/jpeg">
-        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full block md:hidden" src="~assets/img/janitorSmall.jpg" alt="Janitorial equipment" data-not-lazy>
+        <source srcset="~assets/img/janitor.webp" type="image/webp">
+        <source srcset="~assets/img/janitor.jpg" type="image/jpeg">
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="~assets/img/janitor.jpg" alt="Janitorial equipment" data-not-lazy>
       </picture>
-      <picture data-not-lazy>
+      <!-- <picture data-not-lazy>
         <source srcset="~assets/img/janitor.webp" type="image/webp">
         <source srcset="~assets/img/janitor.jpg" type="image/jpeg">
         <img data-not-lazy class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full hidden md:block" src="~assets/img/janitor.jpg" alt="Janitorial equipment">
-      </picture>
+      </picture> -->
       <div class="absolute inset-0 bg-cool-gray-700 opacity-50 h-full flex flex-col" />
     </div>
   </div>
