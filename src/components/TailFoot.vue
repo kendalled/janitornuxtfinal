@@ -43,7 +43,7 @@
         <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+              <h4 class="text-sm leading-5 font-semibold tracking-wider text-cool-gray-400 uppercase">
                 Solutions
               </h4>
               <ul class="mt-4">
@@ -70,7 +70,7 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+              <h4 class="text-sm leading-5 font-semibold tracking-wider text-cool-gray-400 uppercase">
                 Support
               </h4>
               <ul class="mt-4">
@@ -99,7 +99,7 @@
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+              <h4 class="text-sm leading-5 font-semibold tracking-wider text-cool-gray-400 uppercase">
                 Company
               </h4>
               <ul class="mt-4">
@@ -126,7 +126,7 @@
               </ul>
             </div>
             <div class="mt-12 md:mt-0">
-              <h4 class="text-sm leading-5 font-semibold tracking-wider text-gray-400 uppercase">
+              <h4 class="text-sm leading-5 font-semibold tracking-wider text-cool-gray-400 uppercase">
                 Legal
               </h4>
               <ul class="mt-4">
@@ -151,7 +151,7 @@
         </div>
       </div>
       <div class="mt-12 border-t border-gray-200 pt-8">
-        <p class="text-base leading-6 text-gray-400 xl:text-center">
+        <p class="text-base leading-6 text-gray-500 xl:text-center">
           © 2020 Janitor Utah, LLC.
         </p>
       </div>
