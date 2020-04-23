@@ -5,7 +5,7 @@
         class="relative flex flex-wrap items-center justify-between md:py-4"
       >
         <nuxt-link to="/" class="relative z-10 flex-shrink-0 pl-4 py-4 lg:p-0">
-          <img style="height:2.25rem;" class="w-auto" src="~/static/logo.png" alt="">
+          <img style="height:2.25rem;" class="w-auto" src="~/assets/img/logo.png" alt="">
         </nuxt-link>
         <div class="flex-shrink-0 pr-4 md:hidden">
           <button
@@ -117,7 +117,7 @@
               </button>
             </div>
             <div class="px-4 pt-4 pb-6">
-              <img class="h-8 w-auto" src="~/static/logo.png" alt="">
+              <img class="h-8 w-auto" src="~assets/logo.png" alt="">
               <a
                 href="#"
                 class="mt-8 block text-xs font-semibold text-gray-600 uppercase tracking-wider"

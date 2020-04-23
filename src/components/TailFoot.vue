@@ -3,7 +3,7 @@
     <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="xl:col-span-1">
-          <img class="h-10" src="~/static/logo.png" alt="Company name">
+          <img class="h-10" src="~assets/img/logo.png" alt="Company name">
           <p class="mt-8 text-gray-500 text-base leading-6">
             Based in Salt Lake City for over twenty years. Making the world cleaner, one office at a time.
           </p>

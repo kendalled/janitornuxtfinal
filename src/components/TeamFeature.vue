@@ -38,22 +38,22 @@ export default {
         {
           name: 'Tim Smith',
           occupation: 'Team Leader',
-          image: require('~/static/big1.jpg')
+          image: require('~/assets/img/big1.jpg')
         },
         {
           name: 'John Wayne',
           occupation: 'Team Member',
-          image: require('~/static/big2.jpg')
+          image: require('~/assets/img/big2.jpg')
         },
         {
           name: 'David O\'leary',
           occupation: 'Head of Projects',
-          image: require('~/static/big3.jpg')
+          image: require('~/assets/img/big3.jpg')
         },
         {
           name: 'Julio Gonzalez',
           occupation: 'Assistant Manager',
-          image: require('~/static/big4.jpg')
+          image: require('~/assets/img/big4.jpg')
         }
       ]
     }

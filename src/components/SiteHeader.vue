@@ -2,7 +2,7 @@
   <header class="bg-white sm:flex sm:items-center sm:justify-between xl:bg-white border-b" style="height:auto; max-height: 57px;">
     <div class="headerRoot flex justify-between px-4 py-3 xl:w-72 xl:justify-center xl:py-5">
       <nuxt-link to="/">
-        <img class="w-auto" style="height:auto; max-height: 37.5px;" alt="Janitor Utah Logo" src="~/static/logo.png">
+        <img class="w-auto" style="height:auto; max-height: 37.5px;" alt="Janitor Utah Logo" src="~assets/img/logo.png">
       </nuxt-link>
       <div class="flex sm:hidden">
         <button type="button" class="px-2 text-gray-600 hover:text-blue-600 focus:outline-none focus:text-gray-500" @click="toggle">

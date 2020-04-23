@@ -7,7 +7,7 @@
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
               <div class="flex items-center justify-between w-full md:w-auto">
                 <nuxt-link to="/" title="Homepage">
-                  <img class="h-8 w-auto sm:h-10 sm:w-auto" src="~/static/logo.png" alt="">
+                  <img class="h-8 w-auto sm:h-10 sm:w-auto" src="~assets/img/logo.png" alt="">
                 </nuxt-link>
                 <div class="-mr-2 flex items-center md:hidden">
                   <button aria-label="Open menu" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" @click="open = true">
@@ -41,7 +41,7 @@
             <div class="rounded-lg bg-white shadow-xs overflow-hidden">
               <div class="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <img class="h-8 w-auto" src="~/static/logo.png" alt="">
+                  <img class="h-8 w-auto" src="~assets/img/logo.png" alt="">
                 </div>
                 <div class="-mr-2">
                   <button aria-label="Close menu" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out" @click="open = false">
@@ -96,15 +96,15 @@
       </div>
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <picture>
-        <source srcset="~/static/janitorSmall.webp" type="image/webp">
-        <source srcset="~/static/janitorSmall.jpg" type="image/jpeg">
-        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full block md:hidden" src="~/static/janitorSmall.jpg" alt="Janitorial equipment">
+      <picture data-not-lazy>
+        <source srcset="~assets/img/janitorSmall.webp" type="image/webp">
+        <source srcset="~assets/img/janitorSmall.jpg" type="image/jpeg">
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="~assets/img/janitorSmall.jpg" alt="Janitorial equipment" data-not-lazy>
       </picture>
-      <picture>
-        <source srcset="~/static/janitor.webp" type="image/webp">
-        <source srcset="~/static/janitor.jpg" type="image/jpeg">
-        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full hidden md:block" src="~/static/janitor.jpg" alt="Janitorial equipment">
+      <picture data-not-lazy>
+        <source srcset="~assets/img/janitor.webp" type="image/webp">
+        <source srcset="~assets/img/janitor.jpg" type="image/jpeg">
+        <img data-not-lazy class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full hidden md:block" src="~assets/img/janitor.jpg" alt="Janitorial equipment">
       </picture>
       <div class="absolute inset-0 bg-cool-gray-700 opacity-50 h-full flex flex-col" />
     </div>

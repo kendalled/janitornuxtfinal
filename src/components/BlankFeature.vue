@@ -11,7 +11,7 @@ export default {
   name: 'BlankFeature',
   data () {
     return {
-      imgs: [require('~/static/jan1.jpg'), require('~/static/jan2.jpg'), require('~/static/jan3.jpg'), require('~/static/jan4.jpg')]
+      imgs: [require('~/assets/img/jan1.jpg'), require('~/assets/img/jan2.jpg'), require('~/assets/img/jan3.jpg'), require('~/assets/img/jan4.jpg')]
     }
   }
 }
