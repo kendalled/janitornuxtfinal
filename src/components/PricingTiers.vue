@@ -23,7 +23,7 @@
             <div class="rounded-lg shadow-lg overflow-hidden">
               <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
                 <div>
-                  <span class="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-blue-100 text-blue-600">
+                  <span class="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-blue-100 text-blue-700">
                     Standard
                   </span>
                 </div>
@@ -90,7 +90,7 @@
             <div class="mt-4 rounded-lg shadow-lg overflow-hidden lg:mt-0">
               <div class="px-6 py-8 bg-white sm:p-10 sm:pb-6">
                 <div>
-                  <span class="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-blue-100 text-blue-600">
+                  <span class="inline-flex px-4 py-1 rounded-full text-sm leading-5 font-semibold tracking-wide uppercase bg-blue-100 text-blue-700">
                     Enterprise
                   </span>
                 </div>
