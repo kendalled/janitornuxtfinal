@@ -101,7 +101,7 @@
         <source srcset="~/static/janitor.jpg" type="image/jpeg">
         <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="~/static/janitor.jpg" alt="">
       </picture>
-      <div class="absolute inset-0 bg-blue-400 opacity-25 h-full flex flex-col" />
+      <div class="absolute inset-0 bg-gray-700 opacity-50 h-full flex flex-col" />
     </div>
   </div>
 </template>
