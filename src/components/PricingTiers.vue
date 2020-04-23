@@ -166,7 +166,7 @@
                   Custom Pricing
                 </span>
               </div>
-              <div class="mt-4 text-lg leading-7 text-gray-500">
+              <div class="mt-4 text-lg leading-7 text-gray-600">
                 Only pay for what you need. Get full access to our team of janitorial experts at a moment's notice, scaled to your business. Starting at just
                 <strong class="font-semibold text-gray-900">
                   $99.
