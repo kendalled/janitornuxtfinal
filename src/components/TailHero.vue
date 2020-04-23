@@ -97,9 +97,14 @@
     </div>
     <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
       <picture>
+        <source srcset="~/static/janitorSmall.webp" type="image/webp">
+        <source srcset="~/static/janitorSmall.jpg" type="image/jpeg">
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full block md:hidden" src="~/static/janitorSmall.jpg" alt="Janitorial equipment">
+      </picture>
+      <picture>
         <source srcset="~/static/janitor.webp" type="image/webp">
         <source srcset="~/static/janitor.jpg" type="image/jpeg">
-        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="~/static/janitor.jpg" alt="">
+        <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full hidden md:block" src="~/static/janitor.jpg" alt="Janitorial equipment">
       </picture>
       <div class="absolute inset-0 bg-cool-gray-700 opacity-50 h-full flex flex-col" />
     </div>
