@@ -22,5 +22,7 @@ $ npm run generate
 v 0.0 - Initialization
 ...
 v 0.8 - Homepage setup and first 1/2 of landing done.
+v 0.9 - Homepage done and contact section implemented.
+...
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
