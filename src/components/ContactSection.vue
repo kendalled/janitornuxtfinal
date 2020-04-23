@@ -113,7 +113,7 @@
                 <span class="text-sm leading-5 text-gray-500">Max. 500 characters</span>
               </div>
               <div class="mt-1 relative rounded-md shadow-sm">
-                <textarea id="how_can_we_help" rows="3" placeholder="Please be as specific as possible. If you're not sure about something, don't be afraid to ask!" class="form-textarea block w-full transition ease-in-out duration-150 sm:text-sm sm:leading-5" />
+                <textarea id="how_can_we_help" rows="3" placeholder="Please be as specific as possible." class="form-textarea block w-full transition ease-in-out duration-150 sm:text-sm sm:leading-5" />
               </div>
             </div>
             <fieldset v-show="isStepTwo" class="md:-mt-3 mb-2 sm:col-span-2">
