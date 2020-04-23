@@ -70,7 +70,7 @@
               Quote Request
             </h2>
           </div>
-          <form ref="quote" name="Quote Request" action="https://formspree.io/xrganlwa" method="POST" class="h-64 mt-4 grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8">
+          <form ref="quote" name="Quote Request" action="https://formspree.io/xrganlwa" method="POST" class="md:h-64 h-full mt-4 grid grid-cols-1 row-gap-6 sm:grid-cols-2 sm:col-gap-8">
             <div v-show="isStepOne">
               <label for="first_name" class="block text-sm font-medium leading-5 text-gray-700">First name</label>
               <div class="mt-1 relative rounded-md shadow-sm">
@@ -98,25 +98,25 @@
                 <input id="phone" name="phone" class="form-input block w-full transition ease-in-out duration-150 sm:text-sm sm:leading-5">
               </div>
             </div>
-            <div v-if="false" class="sm:col-span-2">
+            <!-- <div v-if="false" class="sm:col-span-2">
+                <div class="flex justify-between">
+                  <label for="how_can_we_help" class="block text-sm font-medium leading-5 text-gray-700">How can we help you?</label>
+                  <span class="text-sm leading-5 text-gray-500">Max. 500 characters</span>
+                </div>
+                <div class="mt-1 relative rounded-md shadow-sm">
+                  <textarea id="how_can_we_help" rows="4" class="form-textarea block w-full transition ease-in-out duration-150 sm:text-sm sm:leading-5" />
+                </div>
+              </div> -->
+            <div v-show="isStepTwo" class="sm:col-span-2">
               <div class="flex justify-between">
                 <label for="how_can_we_help" class="block text-sm font-medium leading-5 text-gray-700">How can we help you?</label>
                 <span class="text-sm leading-5 text-gray-500">Max. 500 characters</span>
               </div>
               <div class="mt-1 relative rounded-md shadow-sm">
-                <textarea id="how_can_we_help" rows="4" class="form-textarea block w-full transition ease-in-out duration-150 sm:text-sm sm:leading-5" />
+                <textarea id="how_can_we_help" rows="3" placeholder="Please be as specific as possible. If you're not sure about something, don't be afraid to ask!" class="form-textarea block w-full transition ease-in-out duration-150 sm:text-sm sm:leading-5" />
               </div>
             </div>
-            <div v-show="isStepTwo" class="sm:col-span-2">
-              <div class="flex justify-between">
-                <label for="how_did_you_hear_about_us" class="block text-sm font-medium leading-5 text-gray-700">How can we help you? Please be as specific as possible.</label>
-                <span class="text-sm leading-5 text-gray-500">Max. 100 characters</span>
-              </div>
-              <div class="mt-1 relative rounded-md shadow-sm">
-                <input id="how_did_you_hear_about_us" name="description" class="form-input block w-full transition ease-in-out duration-150 sm:text-sm sm:leading-5">
-              </div>
-            </div>
-            <fieldset v-show="isStepTwo" class="-mt-4 sm:col-span-2">
+            <fieldset v-show="isStepTwo" class="md:-mt-3 mb-2 sm:col-span-2">
               <legend class="block text-sm font-medium leading-5 text-gray-700">
                 Area Size <span class="text-gray-500">(square feet)</span>
               </legend>
@@ -141,8 +141,8 @@
                 </div>
               </div>
             </fieldset>
-          <!-- <div class="text-right sm:col-span-2">
-
+            <!-- <div class="text-right sm:col-span-2">
+            </transition>
           </div> -->
           </form>
           <div class="flex justify-between mt-4">
