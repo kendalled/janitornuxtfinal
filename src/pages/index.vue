@@ -6,6 +6,7 @@
     <ThreeColFeat />
     <PricingTiers />
     <TailTest />
+    <ContactSection />
     <DarkNewsletter />
     <TailFoot />
   </div>
@@ -18,6 +19,7 @@ import TailTest from '~/components/TailTest'
 import TailStats from '~/components/TailStats'
 import ThreeColFeat from '~/components/ThreeColFeat'
 import DarkNewsletter from '~/components/DarkNewsletter'
+import ContactSection from '~/components/ContactSection'
 import PricingTiers from '~/components/PricingTiers'
 import TailFoot from '~/components/TailFoot'
 export default {
@@ -27,6 +29,7 @@ export default {
     TailTest,
     TailStats,
     ThreeColFeat,
+    ContactSection,
     DarkNewsletter,
     PricingTiers,
     TailFoot
