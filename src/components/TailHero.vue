@@ -116,11 +116,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.thatimage:after {
-  /*saltlakecity3.jpg */
-  background-image: linear-gradient(rgba(22, 59, 103, 0.22), rgba(2, 9, 15, 0.45));
-  /* background-attachment: fixed; */
-}
-</style>
