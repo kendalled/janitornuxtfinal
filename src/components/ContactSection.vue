@@ -18,8 +18,8 @@
                 Postal address
               </dt>
               <dd class="text-blue-50">
-                <p>742 Evergreen Terrace</p>
-                <p>Springfield, UT 12445</p>
+                <p>398 W. 6110 Street</p>
+                <p>Murray, UT 84107</p>
               </dd>
             </div>
             <div class="mt-6">
@@ -38,9 +38,9 @@
                 >
                   <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                <span class="ml-3 text-blue-50">
-                  +1 (555) 123-4567
-                </span>
+                <a href="tel:+18012681543" title="Call our company" class="ml-3 text-blue-50 hover:underline">
+                  +1 (801)-268-1543
+                </a>
               </dd>
             </div>
             <div class="mt-3">
@@ -51,9 +51,9 @@
                 <svg class="flex-shrink-0 h-6 w-6 text-blue-50" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span class="ml-3 text-blue-50">
-                  support@janitorutah.com
-                </span>
+                <a href="mailto:jaredtwilley@gmail.com" title="Email us" class="ml-3 text-blue-50 hover:underline">
+                  jaredtwilley@gmail.com
+                </a>
               </dd>
             </div>
           </dl>
