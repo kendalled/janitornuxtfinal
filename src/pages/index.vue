@@ -1,6 +1,6 @@
 <template>
   <div class="pageroot bg-gray-100 antialiased font-sans">
-    <TailHero />
+    <HeroNew />
     <TailFeat />
     <TailStats />
     <ThreeColFeat />
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import TailHero from '~/components/TailHero'
+import HeroNew from '~/components/HeroNew'
 import TailFeat from '~/components/TailFeat'
 import TailTest from '~/components/TailTest'
 import TailStats from '~/components/TailStats'
@@ -24,7 +24,7 @@ import PricingTiers from '~/components/PricingTiers'
 import TailFoot from '~/components/TailFoot'
 export default {
   components: {
-    TailHero,
+    HeroNew,
     TailFeat,
     TailTest,
     TailStats,
