@@ -113,7 +113,7 @@
                   <span class="text-blue-400">for your business</span>
                 </h2>
                 <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  For over 20 years, we have provided janitorial services for businesses big and small. Clean your office effortlessly with a free quote.
+                  For over 20 years, we have provided janitorial services for businesses big and small. Clean your office effortlessly with a free quote. No commitments and no hidden fees.
                 </p>
                 <p class="mt-8 text-sm font-semibold tracking-wide text-white uppercase sm:mt-10">
                   Used by
