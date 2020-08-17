@@ -15,7 +15,7 @@ pids
 
 # Firebase functions
 functions
-
+plugins/firebase.js
 # Src output
 public
 src/nuxt
