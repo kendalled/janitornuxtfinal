@@ -1,38 +1,19 @@
 <template>
-  <div class="pageroot bg-gray-100 antialiased font-sans">
+  <div class="font-sans antialiased bg-gray-100 pageroot">
     <HeroNew />
     <TailFeat />
     <TailStats />
-    <ThreeColFeat />
+    <SplitImage />
     <PricingTiers />
     <TailTest />
     <ContactSection />
-    <DarkNewsletter />
+    <!-- <DarkNewsletter /> -->
     <TailFoot />
   </div>
 </template>
 
 <script>
-import HeroNew from '~/components/HeroNew'
-import TailFeat from '~/components/TailFeat'
-import TailTest from '~/components/TailTest'
-import TailStats from '~/components/TailStats'
-import ThreeColFeat from '~/components/ThreeColFeat'
-import DarkNewsletter from '~/components/DarkNewsletter'
-import ContactSection from '~/components/ContactSection'
-import PricingTiers from '~/components/PricingTiers'
-import TailFoot from '~/components/TailFoot'
 export default {
-  components: {
-    HeroNew,
-    TailFeat,
-    TailTest,
-    TailStats,
-    ThreeColFeat,
-    ContactSection,
-    DarkNewsletter,
-    PricingTiers,
-    TailFoot
-  }
+  layout: 'index'
 }
 </script>

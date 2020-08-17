@@ -28,7 +28,7 @@
       <div class="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
         <div class="lg:col-span-1">
           <h3 class="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 z-20 relative">
-            Cleaning services made simple.
+            Janitorial services made simple.
           </h3>
           <MobileTabs @changed="mobileTabChange" />
           <TailVert @diff="updateSelect" />

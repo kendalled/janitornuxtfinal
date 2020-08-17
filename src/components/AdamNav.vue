@@ -1,11 +1,11 @@
 <template>
-  <div id="nav" class="bg-white shadow parent z-20">
+  <div id="nav" class="z-20 bg-white shadow parent">
     <div class="md:px-8">
       <nav
         class="relative flex flex-wrap items-center justify-between md:py-4"
       >
-        <nuxt-link to="/" class="relative z-10 flex-shrink-0 pl-4 py-4 lg:p-0">
-          <img style="height:2.25rem;" class="w-auto" src="~/assets/img/logo.png" alt="">
+        <nuxt-link to="/" class="relative z-10 flex-shrink-0 py-4 pl-4 lg:p-0">
+          <img style="height:2.25rem;" class="w-auto" src="~/static/logo.png" alt="">
         </nuxt-link>
         <div class="flex-shrink-0 pr-4 md:hidden">
           <button
@@ -15,7 +15,7 @@
             aria-label="Menu"
             @click="open"
           >
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path
                 d="M3 6C3 5.44772 3.44772 5 4 5H20C20.5523 5 21 5.44772 21 6C21 6.55228 20.5523 7 20 7H4C3.44772 7 3 6.55228 3 6Z"
               />
@@ -31,7 +31,7 @@
         <div
           class="hidden md:block md:ml-10 md:flex md:items-baseline md:justify-between md:bg-transparent"
         >
-          <div class="lg:absolute inset-0 flex items-center justify-center">
+          <div class="inset-0 flex items-center justify-center lg:absolute">
             <a
               href="#"
               class="text-sm font-medium text-gray-900 hover:text-gray-700"
@@ -49,14 +49,14 @@
               class="ml-10 text-sm font-medium text-gray-900 hover:text-gray-700"
             >About</a>
           </div>
-          <div class="ml-10 relative flex items-baseline">
+          <div class="relative flex items-baseline ml-10">
             <a
               href="#"
               class="text-sm font-medium text-gray-900 hover:text-gray-700"
             >Log in</a>
             <a
               href="#"
-              class="ml-8 px-3 py-2 font-medium text-center text-sm rounded-lg bg-gray-300 text-gray-900 hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
+              class="px-3 py-2 ml-8 text-sm font-medium text-center text-gray-900 bg-gray-300 rounded-lg hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
             >Create Account</a>
           </div>
         </div>
@@ -74,7 +74,7 @@
         leave-to-class="opacity-0"
         appear
       >
-        <div v-show="isOpen" class="z-10 fixed inset-0 transition-opacity">
+        <div v-show="isOpen" class="fixed inset-0 z-10 transition-opacity">
           <div
             class="absolute inset-0 bg-black opacity-50"
             tabindex="-1"
@@ -95,7 +95,7 @@
       >
         <div
           v-show="isOpen"
-          class="z-10 fixed inset-y-0 right-0 max-w-xs w-full bg-white transition-transform overflow-y-auto"
+          class="fixed inset-y-0 right-0 z-10 w-full max-w-xs overflow-y-auto transition-transform bg-white"
         >
           <div class="relative z-10 bg-white">
             <div
@@ -109,7 +109,7 @@
                 aria-label="Close"
                 @click="close"
               >
-                <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path
                     d="M18.2929 19.7071C18.6834 20.0976 19.3166 20.0976 19.7071 19.7071C20.0976 19.3166 20.0976 18.6834 19.7071 18.2929L13.4142 12L19.7071 5.70711C20.0976 5.31658 20.0976 4.68342 19.7071 4.29289C19.3166 3.90237 18.6834 3.90237 18.2929 4.29289L12 10.5858L5.70711 4.29289C5.31658 3.90237 4.68342 3.90237 4.29289 4.29289C3.90237 4.68342 3.90237 5.31658 4.29289 5.70711L10.5858 12L4.29289 18.2929C3.90237 18.6834 3.90237 19.3166 4.29289 19.7071C4.68342 20.0976 5.31658 20.0976 5.70711 19.7071L12 13.4142L18.2929 19.7071Z"
                   />
@@ -117,40 +117,40 @@
               </button>
             </div>
             <div class="px-4 pt-4 pb-6">
-              <img class="h-8 w-auto" src="~assets/logo.png" alt="">
+              <img class="w-auto h-8" src="~assets/logo.png" alt="">
               <a
                 href="#"
-                class="mt-8 block text-xs font-semibold text-gray-600 uppercase tracking-wider"
+                class="block mt-8 text-xs font-semibold tracking-wider text-gray-600 uppercase"
               >Products</a>
               <a
                 href="#"
-                class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
+                class="block mt-4 font-medium text-gray-900 hover:text-gray-700"
               >Checkout</a>
               <a
                 href="#"
-                class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
+                class="block mt-4 font-medium text-gray-900 hover:text-gray-700"
               >Payments</a>
               <a
                 href="#"
-                class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
+                class="block mt-4 font-medium text-gray-900 hover:text-gray-700"
               >Billing</a>
               <a
                 href="#"
-                class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
+                class="block mt-4 font-medium text-gray-900 hover:text-gray-700"
               >Insights</a>
             </div>
-            <div class="border-t-2 border-gray-200 px-4 pt-6">
+            <div class="px-4 pt-6 border-t-2 border-gray-200">
               <a
                 href="#"
                 class="block font-medium text-gray-900 hover:text-gray-700"
               >Marketplace</a>
               <a
                 href="#"
-                class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
+                class="block mt-4 font-medium text-gray-900 hover:text-gray-700"
               >Partners</a>
               <a
                 href="#"
-                class="mt-4 block font-medium text-gray-900 hover:text-gray-700"
+                class="block mt-4 font-medium text-gray-900 hover:text-gray-700"
               >About</a>
             </div>
           </div>
@@ -164,7 +164,7 @@
             <div class="p-4">
               <a
                 href="#"
-                class="block px-3 py-3 font-medium text-center bg-gray-300 rounded-lg text-gray-900 hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
+                class="block px-3 py-3 font-medium text-center text-gray-900 bg-gray-300 rounded-lg hover:bg-gray-400 focus:outline-none focus:bg-gray-400"
               >Create Account</a>
             </div>
           </div>

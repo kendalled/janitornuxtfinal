@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <nuxt />
+    <FloatingBanner />
   </div>
 </template>
 
@@ -19,7 +20,11 @@ html {
 }
 </style>
 <script>
+import FloatingBanner from '~/components/FloatingBanner'
 export default {
-  name: 'Default'
+  name: 'Index',
+  components: {
+    FloatingBanner
+  }
 }
 </script>

@@ -22,7 +22,7 @@
         <div class="flex items-center flex-1">
           <div class="flex items-center justify-between w-full md:w-auto">
             <a href="#" aria-label="Home">
-              <img class="w-auto h-8 sm:h-10" src="~/assets/img/logo.png" alt="Logo">
+              <img class="w-auto h-8 sm:h-10" src="~/static/logo.png" alt="Logo">
             </a>
             <div class="flex items-center -mr-2 md:hidden">
               <button
@@ -101,17 +101,21 @@
             <div class="px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center">
               <div>
                 <a href="#" class="inline-flex items-center p-1 pr-2 text-white bg-gray-900 rounded-full sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-                  <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-500 rounded-full">We're hiring</span>
-                  <span class="ml-4 text-sm leading-5">Visit our careers page</span>
+                  <span class="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-blue-500 rounded-full">Covid-19</span>
+                  <span class="ml-4 text-sm leading-5">How we can help your business</span>
                   <svg class="w-5 h-5 ml-2 text-gray-500" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                   </svg>
                 </a>
-                <h2 class="mt-4 text-4xl font-extrabold leading-10 tracking-tight text-white sm:mt-5 sm:leading-none sm:text-6xl lg:mt-6 lg:text-5xl xl:text-6xl">
-                  Janitorial services
+                <h1 class="mt-4 text-4xl font-extrabold leading-10 tracking-tight text-white sm:mt-5 sm:leading-none sm:text-6xl lg:mt-6 lg:text-5xl xl:text-6xl">
+                  <span class="leading-1">
+                    Cleaning services
+                  </span>
                   <br class="hidden md:inline">
-                  <span class="text-blue-400">for your business</span>
-                </h2>
+                  <div class="pl-1">
+                    <span class="text-blue-400">for your business.</span>
+                  </div>
+                </h1>
                 <p class="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                   For over 20 years, we have provided janitorial services for businesses big and small. Clean your office effortlessly with a free quote. No commitments and no hidden fees.
                 </p>
@@ -121,13 +125,13 @@
                 <div class="w-full mt-5 sm:mx-auto sm:max-w-lg lg:ml-0">
                   <div class="flex flex-wrap items-start justify-between">
                     <div class="flex justify-center px-1">
-                      <img class="h-9 sm:h-10" src="https://tailwindui.com/img/logos/tuple-logo.svg" alt="Tuple">
+                      <img class="h-9 sm:h-10" src="~/static/tuple-logo.svg" alt="Tuple">
                     </div>
                     <div class="flex justify-center px-1">
-                      <img class="h-9 sm:h-10" src="https://tailwindui.com/img/logos/workcation-logo.svg" alt="Workcation">
+                      <img class="h-9 sm:h-10" src="~/static/workcation-logo.svg" alt="Workcation">
                     </div>
                     <div class="flex justify-center px-1">
-                      <img class="h-9 sm:h-10" src="https://tailwindui.com/img/logos/statickit-logo.svg" alt="StaticKit">
+                      <img class="h-9 sm:h-10" src="~/static/statickit-logo.svg" alt="StaticKit">
                     </div>
                   </div>
                 </div>
