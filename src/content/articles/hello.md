@@ -1,3 +1,9 @@
+---
+title: Tailwind & Nuxt
+description: 'Empower your NuxtJS application with @nuxt/content module: write in a content/ directory and fetch your Markdown, JSON, YAML and CSV files through a MongoDB like API, acting as a Git-based Headless CMS.'
+slug: 'hello'
+---
+
 ## Hello from [Nuxt Content](https://content.nuxtjs.org) 👋
 
 👉 Edit this [sandbox](https://codesandbox.io/s/nuxt-content-tailwindcss-typography-twhtf). Nice!
@@ -11,7 +17,7 @@
   task that required a keen eye for typography and a lot of complex custom CSS.
 </p>
 
-By _default_,c Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
+By _default_, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
 
 We get lots of complaints about it actually, with people regularly asking us things like:
 

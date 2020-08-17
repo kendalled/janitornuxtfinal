@@ -2,9 +2,9 @@
   <div>
     <input v-model="query" type="search" autocomplete="off">
 
-    <ul v-if="articles.length">
+    <ul class="h-32 mt-5 bg-gray-200 rounded-sm">
       <li v-for="article of articles" :key="article.slug">
-        <nuxt-link :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+        <nuxt-link :to="'/' + article.slug">
           {{ article.title }}
         </nuxt-link>
       </li>
@@ -27,7 +27,7 @@ export default {
         return
       }
 
-      this.articles = await this.$content()
+      this.articles = await this.$content('articles')
         .only(['title', 'slug'])
         .sortBy('createdAt', 'asc')
         .limit(12)
